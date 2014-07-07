@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@mixin border-radius($r:20px){
+  -webkit-border-radius: $r;
+     -moz-border-radius: $r;
+      -ms-border-radius: $r;
+       -o-border-radius: $r;
+          border-radius: $r;
+}
+@mixin transition($r){
+  -webkit-transition: $r;
+   -moz-transition: $r;
+   -o-transition: $r;
+   transition: $r;
+}
+
+@mixin background-sprite(
+		$left: 0px,
+		$top: 0px,
+		$img: true
+	){
+	@if $img == true{
+		background-image: url("../img/basic/player_sprite.png");
+	}
+    background-position: $left $top;
+}
+@mixin no-select() {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "music.dev.machine",
+  "version": "1.0.0",
+  "description": "сборка гранта для сборки Билайн Музыки",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-coffee": "~0.10.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-newer": "~0.6.1",
+    "grunt-contrib-sass": "~0.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emil Frolov | 2013-2014",
+  "license": "BSD-2-Clause"
+}
